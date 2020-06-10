@@ -1,0 +1,10 @@
+.ProjectCard {
+	display: inline-block;
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-left: 2%;
+	color:#003366;
+	text-align: center;
+}

@@ -1,0 +1,82 @@
+.Info{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	height: 30%;
+	background-color: transparent;
+	z-index: 10;
+	color: #003366;
+	overflow-y: scroll;
+}
+
+.Education{
+	width: 100%;
+	height: 50%;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+.Experience {
+	width: 100%;
+	height: 50%;
+	background-color: transparent;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+.Info::-webkit-scrollbar {
+  display: none;
+}
+
+.Info {
+  -ms-overflow-style: none;
+}
+
+.Education::-webkit-scrollbar {
+  display: none;
+}
+
+.Education {
+  -ms-overflow-style: none;
+}
+
+.Experience::-webkit-scrollbar {
+  display: none;
+}
+
+.Experience {
+  -ms-overflow-style: none;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+ul {
+	margin-top: 0;
+	margin-left: 2%;
+}
+
+li {
+	margin-top: 5px;
+}
+
+.Heading{
+	font-size: 1.25em;
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #003366;
+	margin-left: 1%;
+}
+
+.Para{
+	font-size: 1em;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.SubHeading{
+	font-weight: bold;
+}
